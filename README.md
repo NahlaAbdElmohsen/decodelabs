@@ -34,8 +34,8 @@ Bot: Alright, Ahmed. Have a great day!
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/<NahlaAbdElmohsen>/<task01-NahlaMohamed>.git
+cd <task01-NahlaMohamed>
 python chatbot.py
 ```
 
@@ -71,6 +71,4 @@ Add it to `self.intents` in priority order. Words of four or more letters in the
 - Fuzzy matching can occasionally "correct" a legitimate word into a keyword.
 - Ideas: unit tests with `pytest` for `get_response`, keyword scoring instead of first-match, a larger intent set loaded from a JSON file, multi-turn slots (for example, collecting an order number), and a web or Telegram front end.
 
-## License
 
-Add a `LICENSE` file (for example MIT) before publishing.
